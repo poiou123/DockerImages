@@ -1,9 +1,9 @@
 # Postman collection to Swagger HTML
-This image is to get a ccolection stored on Postman and generates a HTML page with documentation on the API.
+This image is to get a colection stored on Postman and generates a HTML page with documentation on the API.
 
 ## Build Image
 
-To build that image you need to pass 2 args, "Postman_api_Key" and "Collection_id".
+To run that image you need to pass 2 env vars, "Postman_api_Key" and "Collection_id".
 
 To obtain it go to Postman, on you collection, choose share and thene "via API".
 
