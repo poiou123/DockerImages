@@ -13,6 +13,8 @@ You also need to expose port 80.
 
 Don't forget to create a file named "options.json" with those [options](https://joolfe.github.io/postman-to-openapi/#options)
 
+Avaliable on [DockerHub](https://hub.docker.com/r/poiou123/postman-to-html)
+
 ## Thanks to
 
 This image uses [postman-to-api](https://github.com/joolfe/postman-to-openapi) by [@joolfe](https://github.com/joolfe)
