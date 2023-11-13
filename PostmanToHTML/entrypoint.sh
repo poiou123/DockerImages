@@ -4,6 +4,12 @@ curl -X GET https://api.postman.com/collections/$Collection_id?access_key=$Postm
 
 p2o /app/collection.json -f swagger.json -o /app/options.json
 
-npx redoc-cli bundle swagger.json -o /var/www/localhost/htdocs/index.html
+redocly build-docs swagger.json --output=index.html
+
+rm collection.json
+
+rm swagger.json
+
+mv index.html /var/www/localhost/htdocs/
 
 /usr/sbin/httpd -D FOREGROUND
