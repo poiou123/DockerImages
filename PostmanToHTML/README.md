@@ -19,3 +19,5 @@ Avaliable on [DockerHub](https://hub.docker.com/r/poiou123/postman-to-html)
 
 This image uses [postman-to-api](https://github.com/joolfe/postman-to-openapi) by [@joolfe](https://github.com/joolfe)
 
+This image uses [redoc](https://github.com/Redocly/redoc) by [@Redocly](https://github.com/Redocly)
+

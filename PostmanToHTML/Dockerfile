@@ -11,8 +11,8 @@ RUN apk add curl
 # Install postman-to-openapi (https://joolfe.github.io/postman-to-openapi/)
 RUN npm i postman-to-openapi -g
 
-# Install Swagger command-line tool (swagger-cli)
-RUN npm install -g swagger-cli
+# Install Ewdocly command-line tool (https://github.com/Redocly/redoc)
+RUN npm i -g @redocly/cli@latest
 
 # Create a directory to store the Postman collection
 WORKDIR /app
