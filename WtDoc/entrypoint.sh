@@ -8,5 +8,9 @@ git checkout tags/$wtVersion
 #generate html files of documentation and export it to apache folder
 ( cat Doxyfile ; echo "GENERATE_HTML=YES"; echo "OUTPUT_DIRECTORY=/var/www/localhost/htdocs" ) | doxygen -
 
+cd ..
+
+rm -r wt
+
 /usr/sbin/httpd -D FOREGROUND
 
