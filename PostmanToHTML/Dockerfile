@@ -3,6 +3,10 @@ FROM alpine:latest
 ENV Postman_api_Key=""
 ENV Collection_id=""
 
+#updata packages
+RUN apk update
+RUN apk upgrade
+
 # Install required packages
 RUN apk add --no-cache nodejs npm
 RUN apk add apache2
