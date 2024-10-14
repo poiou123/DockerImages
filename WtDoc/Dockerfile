@@ -6,6 +6,7 @@ ENV wtVersion="4.7.2"
 RUN apk update
 RUN apk upgrade
 RUN apk add apache2
+RUN apk add graphviz
 RUN apk add doxygen
 RUN apk add git
 
