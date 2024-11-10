@@ -1,4 +1,4 @@
-# proxmoxdoc
+# PgTune
 This image can be used to run the PgTune application on your docker container
 Avaliable on [DockerHub](https://hub.docker.com/r/poiou123/pgtune)
 
